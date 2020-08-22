@@ -60,5 +60,28 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We’ll use your location </string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>example.com</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Contact Tracker need to use your mobile phone bluetooth to communicate with devices</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Contact Tracker need to use your mobile phone bluetooth to communicate with devices</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>Contact Tracker need to use your mobile phone bluetooth to communicate with devices</string>
 </dict>
 </plist>
